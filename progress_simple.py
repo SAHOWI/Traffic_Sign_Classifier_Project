@@ -14,7 +14,7 @@ def progress(count, total, suffix=''):
 
 
 
-for i in range (1,100):
+for i in range (1,100, 10):
     time.sleep(1)
     progress(i,100)
     
